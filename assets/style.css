@@ -10,15 +10,22 @@ body {
 
 header {
     background-color: indigo;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 46px;
     color: #FFFFFF;
     margin: 0;
+  }  
+  
+  header nav ul li {
     display: inline;
   }
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
@@ -30,18 +37,10 @@ header a {
     color: #FFFFFF;
 }
 header nav {
-    float: right;
     margin: 7px 0;
   }
-  header nav ul li {
-    display: inline;
-  }
+
   
-  header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-  }
   .hero {
     background-image: url("../images/header\ for\ portfolio.webp");
     height: 200px;
@@ -49,3 +48,44 @@ header nav {
     background-position: center;
     position: relative;
   }
+  .hero h3 {
+      color: #FFFFFF;
+      display: flex;
+      justify-content: right;
+    }
+
+    .sidebar {
+      position: bottom;
+      top: 0;
+      left: 0;
+      width: 225px;
+      height: 100%;
+      padding: 20px 0;
+      color: indigo;
+      font-size: 42px;
+  }
+  .primary-border {
+    border-color: indigo;
+  }
+  .section-title {
+    font-size: 42px;
+    color: indigo;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-right: 3px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: right;
+  }
+ 
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid #39a6b2
+  }
+
+  .row {
+    width: auto;
+  }
+
