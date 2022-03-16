@@ -82,7 +82,8 @@ header nav {
   .flex-container {
     display: flex;
     flex-direction: row;
-    border: 3px solid #39a6b2
+    border: 3px solid #39a6b2;
+
   }
 
   .row {
