@@ -81,19 +81,12 @@ header nav {
     border-color: indigo;
   }
 
-  .flex-container > div {
-    background-color: #00AAFF;
+  .flex-container {
     display: flex;
     margin: auto;
     flex: wrap;
-    justify-content: center;
+    justify-content: space-around;
        
-  }
-  .child-one {
-    background-color: lightblue;
-    width: 200px;
-    height: 100px;
-    
   }
   
   .column {
